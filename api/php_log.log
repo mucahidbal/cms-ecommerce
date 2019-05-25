@@ -1,0 +1,238 @@
+21/05/19 12:00:39: Connected to DB successfully
+21/05/19 12:00:40: Item added successfully.
+21/05/19 12:00:40: Connected to DB successfully
+21/05/19 12:00:40: Query successfull: UPDATE items SET images_path = "items/116/images/" WHERE items.id = 116
+21/05/19 12:10:14: Connected to DB successfully
+21/05/19 12:10:14: Query successfull: DELETE FROM items WHERE items.id = 116
+21/05/19 12:10:14: Item deleted successfully.
+21/05/19 12:10:58: Connected to DB successfully
+21/05/19 12:10:58: Item added successfully.
+21/05/19 12:10:58: Connected to DB successfully
+21/05/19 12:10:58: Query successfull: UPDATE items SET images_path = "items/117/images/" WHERE items.id = 117
+21/05/19 12:11:03: Connected to DB successfully
+21/05/19 12:11:03: Query successfull: DELETE FROM items WHERE items.id = 117
+21/05/19 12:11:03: Item deleted successfully.
+21/05/19 12:11:57: Connected to DB successfully
+21/05/19 12:11:57: Item added successfully.
+21/05/19 12:11:57: Connected to DB successfully
+21/05/19 12:11:57: Query successfull: UPDATE items SET images_path = "items/118/images/" WHERE items.id = 118
+21/05/19 12:12:01: Connected to DB successfully
+21/05/19 12:12:01: Query successfull: DELETE FROM items WHERE items.id = 118
+21/05/19 12:12:01: Item deleted successfully.
+21/05/19 12:22:26: Connected to DB successfully
+21/05/19 12:22:26: Item added successfully.
+21/05/19 12:22:26: Connected to DB successfully
+21/05/19 12:22:26: Query successfull: UPDATE items SET images_path = "items/119/images/" WHERE items.id = 119
+21/05/19 12:22:50: Connected to DB successfully
+21/05/19 12:22:50: Query successfull: DELETE FROM items WHERE items.id = 119
+21/05/19 12:22:50: Item deleted successfully.
+21/05/19 12:25:23: Connected to DB successfully
+21/05/19 12:25:23: Item added successfully.
+21/05/19 12:25:23: Connected to DB successfully
+21/05/19 12:25:23: Query successfull: UPDATE items SET images_path = "items/120/images/" WHERE items.id = 120
+21/05/19 12:25:43: Connected to DB successfully
+21/05/19 12:25:43: Query successfull: DELETE FROM items WHERE items.id = 120
+21/05/19 12:25:43: Item deleted successfully.
+21/05/19 12:50:41: Connected to DB successfully
+21/05/19 12:50:41: Item added successfully.
+21/05/19 12:50:41: Connected to DB successfully
+21/05/19 12:50:41: Query successfull: UPDATE items SET images_path = "items/121/images/" WHERE items.id = 121
+21/05/19 12:50:45: Connected to DB successfully
+21/05/19 12:50:45: Query successfull: DELETE FROM items WHERE items.id = 121
+21/05/19 12:50:45: Item deleted successfully.
+21/05/19 12:56:31: Connected to DB successfully
+21/05/19 12:56:31: Item added successfully.
+21/05/19 12:56:31: Connected to DB successfully
+21/05/19 12:56:31: Query successfull: UPDATE items SET images_path = "items/122/images/" WHERE items.id = 122
+21/05/19 12:56:54: Connected to DB successfully
+21/05/19 12:56:54: Item added successfully.
+21/05/19 12:56:54: Connected to DB successfully
+21/05/19 12:56:54: Query successfull: UPDATE items SET images_path = "items/123/images/" WHERE items.id = 123
+21/05/19 15:55:38: Connected to DB successfully
+21/05/19 15:55:38: Item added successfully.
+21/05/19 15:55:38: Connected to DB successfully
+21/05/19 15:55:38: Query successfull: UPDATE items SET images_path = "items/124/images/" WHERE items.id = 124
+21/05/19 15:58:36: Connected to DB successfully
+21/05/19 15:58:36: Query successfull: DELETE FROM items WHERE items.id = 124
+21/05/19 15:58:36: Item deleted successfully.
+21/05/19 15:58:37: Connected to DB successfully
+21/05/19 15:58:37: Query successfull: DELETE FROM items WHERE items.id = 123
+21/05/19 15:58:37: Item deleted successfully.
+21/05/19 15:58:39: Connected to DB successfully
+21/05/19 15:58:39: Query successfull: DELETE FROM items WHERE items.id = 122
+21/05/19 15:58:39: Item deleted successfully.
+21/05/19 16:04:02: Connected to DB successfully
+21/05/19 16:04:02: Item added successfully.
+21/05/19 16:04:02: Connected to DB successfully
+21/05/19 16:04:02: Query successfull: UPDATE items SET images_path = "items/125/images/" WHERE items.id = 125
+21/05/19 16:06:44: Connected to DB successfully
+21/05/19 16:06:44: Item added successfully.
+21/05/19 16:06:44: Connected to DB successfully
+21/05/19 16:06:44: Query successfull: UPDATE items SET images_path = "items/126/images/" WHERE items.id = 126
+21/05/19 16:12:48: Connected to DB successfully
+21/05/19 16:12:48: Query successfull: DELETE FROM items WHERE items.id = 125
+21/05/19 16:12:50: Connected to DB successfully
+21/05/19 16:12:50: Query successfull: DELETE FROM items WHERE items.id = 126
+21/05/19 16:12:50: Item deleted successfully.
+21/05/19 16:12:58: Connected to DB successfully
+21/05/19 16:12:58: Item added successfully.
+21/05/19 16:12:58: Connected to DB successfully
+21/05/19 16:12:58: Query successfull: UPDATE items SET images_path = "items/127/images/" WHERE items.id = 127
+21/05/19 16:25:39: Connected to DB successfully
+21/05/19 16:25:39: Item added successfully.
+21/05/19 16:25:39: Connected to DB successfully
+21/05/19 16:25:39: Query successfull: UPDATE items SET images_path = "items/128/images/" WHERE items.id = 128
+21/05/19 16:31:24: Connected to DB successfully
+21/05/19 16:31:24: Item added successfully.
+21/05/19 16:31:24: Connected to DB successfully
+21/05/19 16:31:24: Query successfull: UPDATE items SET images_path = "items/129/images/" WHERE items.id = 129
+21/05/19 16:32:30: Connected to DB successfully
+21/05/19 16:32:30: Item added successfully.
+21/05/19 16:32:30: Connected to DB successfully
+21/05/19 16:32:30: Query successfull: UPDATE items SET images_path = "items/130/images/" WHERE items.id = 130
+21/05/19 16:34:15: Connected to DB successfully
+21/05/19 16:34:15: Item added successfully.
+21/05/19 16:34:15: Connected to DB successfully
+21/05/19 16:34:15: Query successfull: UPDATE items SET images_path = "items/131/images/" WHERE items.id = 131
+21/05/19 16:34:29: Connected to DB successfully
+21/05/19 16:34:29: Query successfull: DELETE FROM items WHERE items.id = 127
+21/05/19 16:34:29: RecursiveDirectoryIterator::__construct(C:/xampp/htdocs/Test/items/127/,C:/xampp/htdocs/Test/items/127/): Sistem belirtilen dosyay� bulam�yor. (code: 2)
+21/05/19 16:34:30: Connected to DB successfully
+21/05/19 16:34:30: Query successfull: DELETE FROM items WHERE items.id = 128
+21/05/19 16:34:30: Item deleted successfully.
+21/05/19 16:34:32: Connected to DB successfully
+21/05/19 16:34:32: Query successfull: DELETE FROM items WHERE items.id = 129
+21/05/19 16:34:32: Item deleted successfully.
+21/05/19 16:34:34: Connected to DB successfully
+21/05/19 16:34:34: Query successfull: DELETE FROM items WHERE items.id = 130
+21/05/19 16:34:34: Item deleted successfully.
+21/05/19 16:34:36: Connected to DB successfully
+21/05/19 16:34:36: Query successfull: DELETE FROM items WHERE items.id = 131
+21/05/19 16:36:00: Connected to DB successfully
+21/05/19 16:36:00: Item added successfully.
+21/05/19 16:36:00: Connected to DB successfully
+21/05/19 16:36:00: Query successfull: UPDATE items SET images_path = "items/132/images/" WHERE items.id = 132
+21/05/19 16:36:51: Connected to DB successfully
+21/05/19 16:36:51: Query successfull: DELETE FROM items WHERE items.id = 132
+21/05/19 17:00:30: Connected to DB successfully
+21/05/19 17:00:30: Item added successfully.
+21/05/19 17:00:30: Connected to DB successfully
+21/05/19 17:00:30: Query successfull: UPDATE items SET images_path = "items/133/images/" WHERE items.id = 133
+21/05/19 17:00:43: Connected to DB successfully
+21/05/19 17:00:43: Item added successfully.
+21/05/19 17:00:43: Connected to DB successfully
+21/05/19 17:00:44: Query successfull: UPDATE items SET images_path = "items/134/images/" WHERE items.id = 134
+21/05/19 17:00:50: Connected to DB successfully
+21/05/19 17:00:50: Item added successfully.
+21/05/19 17:00:50: Connected to DB successfully
+21/05/19 17:00:51: Query successfull: UPDATE items SET images_path = "items/135/images/" WHERE items.id = 135
+21/05/19 17:01:04: Connected to DB successfully
+21/05/19 17:01:05: Query successfull: DELETE FROM items WHERE items.id = 133
+21/05/19 17:01:05: Item deleted successfully.
+21/05/19 17:01:06: Connected to DB successfully
+21/05/19 17:01:06: Query successfull: DELETE FROM items WHERE items.id = 134
+21/05/19 17:01:06: Item deleted successfully.
+21/05/19 17:01:07: Connected to DB successfully
+21/05/19 17:01:07: Query successfull: DELETE FROM items WHERE items.id = 135
+21/05/19 17:01:07: Item deleted successfully.
+21/05/19 17:29:10: Connected to DB successfully
+21/05/19 17:29:10: Error: INSERT INTO items(name,category,price,price) VALUES("DEN","asd","123""Urun acçıasdjasd")
+Column count doesn't match value count at row 1
+21/05/19 17:29:10: ADD ITEM ERROR!
+21/05/19 17:33:00: Connected to DB successfully
+21/05/19 17:33:00: Error: INSERT INTO items(name,category,price,description) VALUES("DEN","asd","123""asdasdas1231 asda sd")
+Column count doesn't match value count at row 1
+21/05/19 17:33:00: ADD ITEM ERROR!
+21/05/19 17:33:43: Connected to DB successfully
+21/05/19 17:33:43: Item added successfully.
+21/05/19 17:33:43: Connected to DB successfully
+21/05/19 17:33:43: Query successfull: UPDATE items SET images_path = "items/136/images/" WHERE items.id = 136
+21/05/19 17:34:21: Connected to DB successfully
+21/05/19 17:34:21: Query successfull: DELETE FROM items WHERE items.id = 136
+21/05/19 17:34:21: Item deleted successfully.
+21/05/19 17:38:49: Connected to DB successfully
+21/05/19 17:38:49: Item added successfully.
+21/05/19 17:38:49: Connected to DB successfully
+21/05/19 17:38:49: Query successfull: UPDATE items SET images_path = "items/137/images/" WHERE items.id = 137
+24/05/19 11:17:07: Connected to DB successfully
+24/05/19 11:17:07: Category added successfully.
+24/05/19 11:17:39: Connected to DB successfully
+24/05/19 11:17:39: Category added successfully.
+24/05/19 11:17:39: Connected to DB successfully
+24/05/19 11:17:39: Category added successfully.
+24/05/19 11:17:40: Connected to DB successfully
+24/05/19 11:17:40: Category added successfully.
+24/05/19 11:17:40: Connected to DB successfully
+24/05/19 11:17:40: Category added successfully.
+24/05/19 11:17:40: Connected to DB successfully
+24/05/19 11:17:40: Category added successfully.
+24/05/19 11:17:41: Connected to DB successfully
+24/05/19 11:17:41: Category added successfully.
+24/05/19 12:25:22: Connected to DB successfully
+24/05/19 12:25:22: Error: DELETE FROM categories WHERE items.id = 1
+Unknown column 'items.id' in 'where clause'
+24/05/19 12:25:22: DELETE CATEGORY ERROR!
+24/05/19 12:27:40: Connected to DB successfully
+24/05/19 12:27:40: Query successfull: DELETE FROM categories WHERE categories.id = 1
+24/05/19 12:27:41: Connected to DB successfully
+24/05/19 12:27:41: Query successfull: DELETE FROM categories WHERE categories.id = 2
+24/05/19 12:27:41: Connected to DB successfully
+24/05/19 12:27:41: Query successfull: DELETE FROM categories WHERE categories.id = 3
+24/05/19 12:27:41: Connected to DB successfully
+24/05/19 12:27:41: Query successfull: DELETE FROM categories WHERE categories.id = 4
+24/05/19 12:30:01: Connected to DB successfully
+24/05/19 12:30:01: Category added successfully.
+24/05/19 12:31:41: Connected to DB successfully
+24/05/19 12:31:41: Query successfull: DELETE FROM categories WHERE categories.id = 8
+24/05/19 12:31:46: Connected to DB successfully
+24/05/19 12:31:46: Category added successfully.
+24/05/19 14:23:40: Connected to DB successfully
+24/05/19 14:23:40: Query successfull: DELETE FROM categories WHERE categories.id = 5
+24/05/19 14:23:41: Connected to DB successfully
+24/05/19 14:23:41: Query successfull: DELETE FROM categories WHERE categories.id = 6
+24/05/19 14:25:41: Connected to DB successfully
+24/05/19 14:25:41: Query successfull: DELETE FROM categories WHERE categories.id = 7
+24/05/19 14:25:41: Connected to DB successfully
+24/05/19 14:25:41: Query successfull: DELETE FROM categories WHERE categories.id = 9
+24/05/19 14:25:50: Connected to DB successfully
+24/05/19 14:25:50: Category added successfully.
+24/05/19 14:25:57: Connected to DB successfully
+24/05/19 14:25:57: Category added successfully.
+24/05/19 14:26:45: Connected to DB successfully
+24/05/19 14:26:45: Category added successfully.
+24/05/19 14:26:54: Connected to DB successfully
+24/05/19 14:26:54: Category added successfully.
+24/05/19 14:27:02: Connected to DB successfully
+24/05/19 14:27:02: Category added successfully.
+24/05/19 14:27:11: Connected to DB successfully
+24/05/19 14:27:11: Category added successfully.
+24/05/19 14:27:16: Connected to DB successfully
+24/05/19 14:27:16: Category added successfully.
+24/05/19 14:36:04: Connected to DB successfully
+24/05/19 14:36:04: Item added successfully.
+24/05/19 14:36:04: Connected to DB successfully
+24/05/19 14:36:04: Query successfull: UPDATE items SET images_path = "items/138/images/" WHERE items.id = 138
+24/05/19 14:37:03: Connected to DB successfully
+24/05/19 14:37:03: Item added successfully.
+24/05/19 14:37:03: Connected to DB successfully
+24/05/19 14:37:03: Query successfull: UPDATE items SET images_path = "items/139/images/" WHERE items.id = 139
+24/05/19 14:49:22: Connected to DB successfully
+24/05/19 14:49:22: Query successfull: DELETE FROM items WHERE items.id = 139
+24/05/19 14:49:22: Item deleted successfully.
+24/05/19 14:49:24: Connected to DB successfully
+24/05/19 14:49:24: Query successfull: DELETE FROM items WHERE items.id = 138
+24/05/19 14:49:24: Item deleted successfully.
+24/05/19 14:49:46: Connected to DB successfully
+24/05/19 14:49:46: Item added successfully.
+24/05/19 14:49:46: Connected to DB successfully
+24/05/19 14:49:46: Query successfull: UPDATE items SET images_path = "items/140/images/" WHERE items.id = 140
+24/05/19 15:25:11: Connected to DB successfully
+24/05/19 15:25:11: Query successfull: DELETE FROM items WHERE items.id = 140
+24/05/19 15:25:11: Item deleted successfully.
+24/05/19 15:25:22: Connected to DB successfully
+24/05/19 15:25:22: Query successfull: DELETE FROM items WHERE items.id = 137
+24/05/19 15:25:22: Item deleted successfully.
+24/05/19 16:30:23: Connected to DB successfully
+24/05/19 16:30:23: Item added successfully.
+24/05/19 16:30:23: Connected to DB successfully
+24/05/19 16:30:23: Query successfull: UPDATE items SET images_path = "items/141/images/" WHERE items.id = 141

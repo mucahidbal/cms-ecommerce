@@ -1,0 +1,6 @@
+AuthType Basic
+AuthName "Access to the staging site"
+#AuthUserFile /home/vol5_3/epizy.com/epiz_23808780/htdocs/cp/.htpasswd
+AuthUserFile C:\xampp\htdocs\Test\cp\.htpasswd
+Require valid-user
+DirectoryIndex control-panel.php
