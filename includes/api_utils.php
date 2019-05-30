@@ -14,6 +14,8 @@ define("CREATIONDATE_COLUMN", "creation_date");
 define("CATEGORIES_TABLE", "categories");
 define("CATEGORIES_NAME_COLUMN", "name");
 
+define("ITEMS_PER_PAGE", 9);
+
 function connectoToDB() {
 //    $servername = "sql210.epizy.com";
 //    $username = "epiz_23808780";
@@ -80,23 +82,29 @@ function getCategoryObjFromDB($id) {
     return getObjFromDB($id, CATEGORIES_TABLE);
 }
 
-function getItems(int $category_id = NULL) {
-    if ($category_id) {
-        $sql_query = "SELECT * FROM " . ITEMS_TABLE . " WHERE " . "category = " . $category_id;
+function getItems(int $category_id = NULL, int $page_no = NULL) : array {
+    if ($page_no === NULL) {
+        if ($category_id) {
+            $sql_query = "SELECT * FROM " . ITEMS_TABLE . " WHERE " . "category = " . $category_id;
+        } else {
+            $sql_query = "SELECT * FROM " . ITEMS_TABLE;
+        }
     } else {
-        $sql_query = "SELECT * FROM " . ITEMS_TABLE;
+        $page_no = $page_no > 0 ? $page_no : 1;
+        $offset = ($page_no - 1) * ITEMS_PER_PAGE;
+        $sql_query = "SELECT * FROM " . ITEMS_TABLE . " LIMIT $offset, " . ITEMS_PER_PAGE;
     }
     $result = queryDB($sql_query);
     return $result->fetch_all(MYSQLI_ASSOC);
 }
 
-function getCategories() {
+function getCategories() : array {
     $sql_query = "SELECT * FROM " . CATEGORIES_TABLE;
     $result = queryDB($sql_query);
     return $result->fetch_all(MYSQLI_ASSOC);
 }
 
-function getImagesPath(int $pid) {
+function getImagesPath(int $pid) : string {
     return getItemPath($pid) . "images/";
 }
 
@@ -214,4 +222,10 @@ function deleteCategory($id) : bool {
     }
 
     return true;
+}
+
+function getTotalPages(int $items_per_page = ITEMS_PER_PAGE) : int {
+    $total_pages_sql = "SELECT COUNT(*) FROM " . ITEMS_TABLE;
+    $total_rows = queryDB($total_pages_sql)->fetch_array()[0];
+    return intval(ceil($total_rows / $items_per_page));
 }

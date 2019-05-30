@@ -3,8 +3,8 @@ require_once "defines.php";
 require_once "utils.php";
 require_once "api_utils.php";
 
-function create_items_list(int $category_id = NULL) {
-    foreach (getItems($category_id) as $item) {
+function create_items_list(int $pageno, int $category_id = NULL) {
+    foreach (getItems($category_id, $pageno) as $item) {
         $pid = strval($item["id"]);
         $cover_image_path = getCoverImagePath($pid);
         $title = getItemName($pid);

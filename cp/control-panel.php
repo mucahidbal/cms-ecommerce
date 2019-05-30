@@ -7,7 +7,6 @@ require_once "../includes/api_utils.php";
 include_once "cp-sidebar.php";
 
 function create_table() : void {
-    $items_array = getItems();
     $header_row = "<tr>
                     <td>id</td>
                     <td>İlan Adı</td>
@@ -18,7 +17,7 @@ function create_table() : void {
     $table = "<table border=\"1\"><tbody>";
     $table .= $header_row;
 
-    foreach ($items_array as $item) {
+    foreach (getItems() as $item) {
         unset($item["images_path"]);
         unset($item["description"]);
         $table .= "<tr>";
