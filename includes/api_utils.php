@@ -229,3 +229,7 @@ function getTotalPages(int $items_per_page = ITEMS_PER_PAGE) : int {
     $total_rows = queryDB($total_pages_sql)->fetch_array()[0];
     return intval(ceil($total_rows / $items_per_page));
 }
+
+function addParameterToUrl(array $parameters) : string {
+    return "?" . http_build_query(array_merge($_GET, $parameters));
+}

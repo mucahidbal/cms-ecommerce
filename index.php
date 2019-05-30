@@ -36,12 +36,12 @@ require_once "./includes/html_utils.php";
 				</div>
                 <div id="page_buttons">
                     <ul>
-                        <li class="pagination"><a href="?pageno=1">İlk</a></li>
+                        <li class="pagination"><a href="<?php echo addParameterToUrl(["pageno" => 1]) ?>">İlk</a></li>
                         <li class="<?php if($pageno <= 1){ echo 'disabled'; } else { echo "pagination"; } ?>">
-                            <a href="<?php if($pageno <= 1){ echo '#'; } else { echo "?pageno=".($pageno - 1); } ?>">Önceki</a>
+                            <a href="<?php if($pageno <= 1){ echo '#'; } else { echo addParameterToUrl(["pageno" => ($pageno - 1)]); } ?>">Önceki</a>
                         </li>
                         <li class="<?php if($pageno >= $total_pages){ echo 'disabled'; } else { echo "pagination"; } ?>">
-                            <a href="<?php if($pageno >= $total_pages){ echo '#'; } else { echo "?pageno=".($pageno + 1); } ?>">Sonraki</a>
+                            <a href="<?php if($pageno >= $total_pages){ echo '#'; } else { echo addParameterToUrl(["pageno" => ($pageno + 1)]); } ?>">Sonraki</a>
                         </li>
                         <li class="pagination"><a href="?pageno=<?php echo $total_pages; ?>">Son</a></li>
                     </ul>
